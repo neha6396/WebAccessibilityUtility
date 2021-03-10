@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.deque.axe.AccessibilityTest">
+        <methods>
+          <include name="testAccessibilityWithSkipFrames"/>
+          <include name="testAccessibilityWithWebElement"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testAccessibility"/>
+          <include name="testAccessibilityWithShadowElement"/>
+          <include name="testAxeErrorHandling"/>
+          <include name="testAccessibilityWithOptions"/>
+          <include name="testAccessibilityWithSelector"/>
+          <include name="testAccessibilityWithIncludesAndExcludes"/>
+          <include name="setProperty"/>
+        </methods>
+      </class> <!-- com.deque.axe.AccessibilityTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
